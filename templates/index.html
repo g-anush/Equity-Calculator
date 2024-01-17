@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poker Equity Calculator</title>
+</head>
+<body>
+    <h1>Poker Equity Calculator</h1>
+    <form method="post" action="/equity6card">
+        <label for="holecards">Enter holecards (e.g., A2, KQ): </label>
+        <input type="text" name="holecards" required><br>
+
+        <label for="deadcards">Enter dead cards (e.g., 345): </label>
+        <input type="text" name="deadcards" required><br>
+
+        <label for="num_trials">Enter the number of trials: </label>
+        <input type="number" name="num_trials" required><br>
+
+        <button type="submit">Calculate Equity</button>
+    </form>
+</body>
+</html>
